@@ -10,6 +10,8 @@ describe('Basic Tests', () => {
     })
 
     test('database url should be set', () => {
-        expect(process.env.DATABASE_URL).toContain('postgresql://')
+        expect(process.env.DATABASE_URL).toContain(
+
+            'postgresql://')
     })
 })
